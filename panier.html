@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Panier d'Achats</title>
+  </head>
+  <body>
+    
+      
+<!--panier premier article-->
+  <div class="parent">
+      <div class="item" id="0">
+        <span class="item-name"><i class="fas fa-mobile-alt"></i> iPhone 14 Pro</span>
+        <button class="decrease">-</button>
+        <span class="quantity">0</span>
+        <button class="increase">+</button>
+        <button class="remove"><i class="fas fa-trash-alt"></i></button>
+        <button class="like"><i class="fas fa-heart"></i></button>
+        <span class="price">1200$</span>
+          <div class="total">Total: 
+          <span id="totaux">0 $</span>
+          </div>
+      </div>
+
+      <div class="item" id="0">
+        <span class="item-name"><i class="fas fa-headphones"></i> AirPods Pro Max</span>
+        <button class="decrease">-</button>
+        <span class="quantity">0</span>
+        <button class="increase">+</button>
+        <button class="remove"><i class="fas fa-trash-alt"></i></button>
+        <button class="like"><i class="fas fa-heart"></i></button>
+        <span class="price">250$</span>
+          <div class="total">Total: 
+          <span id="totaux">0 $</span>
+          </div>
+      </div>
+    </div>
+    <div class="total">Total: 
+      <span id="total-price">0 $</span>
+    </div>
+
+<!--LINK WITH JS-->
+    <script src="script.js"></script>
+  </body>
+</html>

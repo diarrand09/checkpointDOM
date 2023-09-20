@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .like {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .remove i {
+    margin-right: 5px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  .item {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-name {
+    flex: 1;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .quantity,
+  .price {
+    margin: 0 10px;
+  }
+  
+  .decrease,
+  .increase,
+  .remove,
+  .like {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .decrease:hover,
+  .increase:hover,
+  .remove:hover,
+  .like:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .decrease:hover,
+  .increase:hover,
+  .remove:hover,
+  .like:hover {
+    background-color: #e1e1e1;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .decrease,
+  .increase,
+  .remove,
+  .like {
+    margin: 0 5px;
+  }
+  .remove {
+    color: #ff5733;
+  }
+  
+  .like {
+    color: #ff1493;
+  }
+  
+  .liked {
+    color: #e60073;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
